@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <style type = "text/css">
+        body{
+            color: blue;
+            background-color: #97DEFF;
+        }
+        div{
+            background-color: #C9EEFF;
+            padding-top: 5%;
+            padding-bottom: 5%;
+        }
+        h1{
+            font-family: sans-serif;
+            font-size: 40px;
+            margin-left: 5%;
+        }
+    </style>
+
+
+</header>
+<body>
+
+<div>
+	<h1>Formulario de Registro Candidatos</h1>
+</div>
+
+<br>
+
+<div>
+  <form action="/action_page.php">
+    <label style="padding-left: 10%; font-family: sans-serif;" for="fname">Nombre:</label>
+    <input style="margin-left: 50%;" type="text" id="fname" name="fname" placeholder="Nombre">
+    <input  type="text" id="fname" name="fname" placeholder="Apellidos">
+    <br><br>
+
+    <label style="padding-left: 10%; font-family: sans-serif;" for="lname";>Email:</label>
+    <input style="margin-left: 50%;" type="text" id="lname" name="lname" placeholder="ejemplo@ejemplo.com" required>
+    <br><br>
+
+    <label style="padding-left: 10%; font-family: sans-serif;" for="lname";>Número de Teléfono:</label>
+    <input style="margin-left: 50%;" type="text" id="lname" name="lname" placeholder="(000) 000-0000" required>
+    <br><br>
+
+    <label style="padding-left: 10%; font-family: sans-serif;" for="lname";>Fecha de Nacimiento:</label>
+    <input style="margin-left: 50%;" type="date" id="lname" name="lname" placeholder="MM-DD-YYYY">
+    <br><br>
+
+    <label style="padding-left: 10%; font-family: sans-serif;" for="lname";>Sexo:</label>
+    <input style="margin-left: 50%;" type="text" id="lname" name="lname" placeholder="					V">
+    <br><br>
+
+    <hr style="border-top: dotted 3px; color: #97DEFF; text-align: center; margin: 0, 15%;">
+    <br><br>
+
+    <input style="margin-left: 10%;" type="text" id="lname" name="lname" placeholder="Mencione las razones por las que desea el puesto solicitado.">
+    <label style="padding-left: 10%; font-family: sans-serif;" for="lname";>Desea que sus datos sean utilizados para posteriores campañas?:</label>
+    <input style="margin-left: 10%;" type="radio" id="sir" name="lname" value="Si">
+    <label for="sir">Si</label>
+    <input style="margin-left: 10%;" type="radio" id="nor" name="lname" value="No">
+    <label for="nor">No</label>
+    <br><br>
+
+	<hr style="border-top: dotted 3px; color: #97DEFF; text-align: center; margin: 0, 15%;">
+    <br><br>
+
+     <label style="padding-left: 10%; font-family: sans-serif;" for="lname";>Adjuntar Curriculum Vitae Fomrato PDF</label>
+     <label for="myfile" style="margin-left: 40% ;">Buscar Archivo:</label>
+     <input style="margin-left: 2% ; type="file" id="myfile" name="myfile" >
+
+    
+  </form>
+</div>
+<div></div>
+
+</body>
+<br>
+<footer  style="background-color: #C9EEFF; padding-top: 5%; padding-bottom: 5%">
+
+	<input type="submit" value="Enviar" style="background-color: #FC7300; color: white; padding-bottom: 1%; padding-top: 1%; padding-left: 1%; padding-right: 1%; margin-left: 48%">
+	<h3 style="text-align:center; font-family: sans-serif; font-size: 10px;">19211705</h3>
+
+</footer>
+</html>
